@@ -7,4 +7,4 @@ RUN chmod +x /app/pocketbase
 COPY pb_hooks /app/pb_hooks
 COPY pb_migrations /app/pb_migrations
 EXPOSE 8090
-CMD ["/app/pocketbase", "serve", "--http=0.0.0.0:8090"]
+CMD ["sh", "-c", "/app/pocketbase migrate up && /app/pocketbase serve --http=0.0.0.0:8090"]

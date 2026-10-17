@@ -1,0 +1,11 @@
+{
+  "name": "Neo Detailing",
+  "short_name": "Neo",
+  "start_url": "/s/neo",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3b82f6",
+  "icons": [
+    { "src": "/images/logo.jpg", "sizes": "192x192", "type": "image/jpeg" }
+  ]
+}

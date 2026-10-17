@@ -3,12 +3,11 @@
   "private": true,
   "version": "1.1.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "build:fast": "vite build"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview --host 0.0.0.0 --port $PORT"
+},
   "dependencies": {
     "date-fns": "^4.1.0",
     "lucide-react": "^0.475.0",
